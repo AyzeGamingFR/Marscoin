@@ -1,0 +1,15 @@
+{
+    
+    "prevhash": "",
+    "transacts": [
+        
+        {"from": senderAddress, "to": receiverAddress, "coinsType": secondaryCoinsNumber, "coins": numberOfSecondaryCoins, "valids": numberOfTransactionValidations}
+        
+    ],
+    "valids": numberOfBlockValidations
+        
+        
+        
+    }
+    
+}
