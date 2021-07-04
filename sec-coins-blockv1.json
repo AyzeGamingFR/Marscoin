@@ -2,6 +2,7 @@
     
     "prevhash": previousBlockHash,
     "blocknumber": blockNumber,
+    "blockalgorithm": blockAlgorithm,
     "transacts": [
         
         {"previoustransactionhash": previousTransactionHash, "from": senderAddress, "to": receiverAddress, "coinstype": secondaryCoinNumber, "coins": numberOfSecondaryCoins, "validations": numberOfTransactionValidations, "message": senderMessage, "otherdatas": otherDatas, "signature": addressSignature},
