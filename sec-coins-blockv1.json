@@ -1,15 +1,12 @@
 {
     
-    "prevhash": "",
+    "prevhash": previousBlockHash,
+    "blocknumber": blockNumber,
     "transacts": [
         
-        {"from": senderAddress, "to": receiverAddress, "coinsType": secondaryCoinsNumber, "coins": numberOfSecondaryCoins, "valids": numberOfTransactionValidations}
+        {"previoustransactionhash": previousTransactionHash, "from": senderAddress, "to": receiverAddress, "coinstype": secondaryCoinNumber, "coins": numberOfSecondaryCoins, "validations": numberOfTransactionValidations, "message": senderMessage, "otherdatas": otherDatas, "signature": addressSignature},
         
     ],
-    "valids": numberOfBlockValidations
-        
-        
-        
-    }
+    "validations": numberOfBlockValidations
     
 }
